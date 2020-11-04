@@ -60,7 +60,7 @@ function OrphanagesMap (){
                     key={orphanage.id}
                 >
                     <Popup closeButton={false} minWidth={240} maxWidth={240}className="map-popup">
-                        Casa das Criaças
+                        {orphanage.nome}
                         <Link to={`/orphanages/${orphanage.id}`}>
                             <FiArrowRight size={20} color="#FFF"/>
                         </Link>
