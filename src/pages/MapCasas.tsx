@@ -13,7 +13,7 @@ interface Orphanage {
     id: number;
     latitude: number;
     longitude: number; 
-    nome: string;
+    name: string;
 }
 
 function OrphanagesMap (){
@@ -60,7 +60,7 @@ function OrphanagesMap (){
                     key={orphanage.id}
                 >
                     <Popup closeButton={false} minWidth={240} maxWidth={240}className="map-popup">
-                        {orphanage.nome}
+                        {orphanage.name}
                         <Link to={`/orphanages/${orphanage.id}`}>
                             <FiArrowRight size={20} color="#FFF"/>
                         </Link>
