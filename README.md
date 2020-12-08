@@ -46,3 +46,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## bugs conhecidos
 as imagens não estão sendo exibidas corretamente, e o horario de funcioncinamento exibido duplicado e entre chaves "{}"
+
+## olhe em execução
+https://caue-happy.netlify.app/
